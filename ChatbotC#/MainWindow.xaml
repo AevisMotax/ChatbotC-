@@ -19,8 +19,8 @@
 
         <!-- User Input and Button -->
         <DockPanel Grid.Row="1" Margin="10">
-            <TextBox x:Name="UserInput" DockPanel.Dock="Left" Width="280" Margin="0,0,10,0" />
-            <Button x:Name="SendButton" Content="Send" Width="75" Click="SendButton_Click"/>
+            <TextBox x:Name="UserInput" DockPanel.Dock="Left" Width="280" Margin="0,0,10,0" TextChanged="UserInput_TextChanged" />
+            <Button x:Name="SendButton" Content="Send" Width="74" Click="SendButton_Click"/>
         </DockPanel>
     </Grid>
 </Window>
