@@ -24,5 +24,15 @@ namespace ChatbotC_
         {
             InitializeComponent();
         }
+
+        private void SendButton_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void UserInput_TextChanged(object sender, TextChangedEventArgs e)
+        {
+
+        }
     }
 }

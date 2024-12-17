@@ -5,8 +5,22 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:ChatbotC_"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="ChatBot" Height="450" Width="800">
     <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="50"/>
+        </Grid.RowDefinitions>
 
+        <!-- Chat Display -->
+        <ScrollViewer Grid.Row="0" VerticalScrollBarVisibility="Auto">
+            <StackPanel x:Name="ChatPanel" Margin="10"/>
+        </ScrollViewer>
+
+        <!-- User Input and Button -->
+        <DockPanel Grid.Row="1" Margin="10">
+            <TextBox x:Name="UserInput" DockPanel.Dock="Left" Width="280" Margin="0,0,10,0" />
+            <Button x:Name="SendButton" Content="Send" Width="75" Click="SendButton_Click"/>
+        </DockPanel>
     </Grid>
 </Window>
