@@ -5,6 +5,11 @@ VisualStudioVersion = 17.6.33723.286
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ChatbotCSharp", "ChatbotC#\ChatbotCSharp.csproj", "{DB277527-4097-447C-9B39-2AD7109B9688}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "botEmulator", "botEmulator", "{022F4D2D-6C9C-4BE4-A51A-87C29BC08C5E}"
+	ProjectSection(SolutionItems) = preProject
+		string.cs = string.cs
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
